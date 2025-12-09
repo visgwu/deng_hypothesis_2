@@ -54,4 +54,5 @@ The analysis revealed that the model primarily relied on **three key features** 
 ## 5. Conclusion
 Hypothesis 2 is **ACCEPTED**. 
 
-The fine-tuned model (`ft:gpt-4o-mini...`) exceeded the 85% accuracy target by achieving **91.0%**. The analysis confirms that deep inspection of the **Build Environment**, **Builder Identity**, and **Entry Point** provides a robust mechanism for detecting software supply chain attacks that bypass traditional signature verification.
+The fine-tuned model (`ft:gpt-4o-mini-2024-07-18:vchirrav::CQm2xpT1`) exceeded the 85% accuracy target by achieving **91.0%**. The analysis confirms that deep inspection of the **Build Environment**, **Builder Identity**, and **Entry Point** provides a robust mechanism for detecting software supply chain attacks that bypass traditional signature verification.
+
