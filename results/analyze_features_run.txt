@@ -1,0 +1,20 @@
+vasu@vasupc:/mnt/c/vasu/D.Eng/Praxis/Git/deng_hypothesis_2$ python3 src/analyze_features.py
+1. Loading Real-World Metadata...
+2. Synthesizing Tampered Examples for Contrast...
+3. extracting features (Column-Level)...
+4. Training Analysis Model...
+
+--- Feature Importance (Requested 10 Features) ---
+                           Feature  Importance
+7               recipe.environment    0.368546
+0                       builder.id    0.333794
+2                recipe.entryPoint    0.281992
+4                 materials[*].uri    0.005930
+5              materials[*].digest    0.004898
+6                 recipe.arguments    0.004305
+8  metadata.completeness.materials    0.000534
+1                      recipe.type    0.000000
+3         recipe.definedInMaterial    0.000000
+9            metadata.reproducible    0.000000
+
+[SUCCESS] Plot saved to 'results/feature_importance.png'

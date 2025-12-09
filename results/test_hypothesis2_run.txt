@@ -1,0 +1,30 @@
+vasu@vasupc:/mnt/c/vasu/D.Eng/Praxis/Git/deng_hypothesis_2$ python3 src/test_hypothesis_2.py 
+1. Preparing Data & Synthesizing Labels...
+   Training Set: 100 rows (Balanced)
+   Test Set: 102 rows (12 Adversarial Edge Cases)
+2. Vectorizing Features...
+3. Training Random Forest & SVM...
+4. Evaluating Models...
+5. Evaluating Fine-Tuned LLM (ft:gpt-4o-mini-2024-07-18:vchirrav::CQm2xpT1)...
+   Processed 0/102
+   Processed 10/102
+   Processed 20/102
+   Processed 30/102
+   Processed 40/102
+   Processed 50/102
+   Processed 60/102
+   Processed 70/102
+   Processed 80/102
+   Processed 90/102
+   Processed 100/102
+
+==================================================
+HYPOTHESIS 2 RESULTS (Target: 85%)
+==================================================
+Model                | Accuracy   | Status
+--------------------------------------------------
+Random Forest        | 88.2%     | OPTIMAL (>85%)
+SVM                  | 83.3%     | FAIL (<85%)
+Fine-Tuned LLM       | 91.0%     | GOOD (>85%)
+==================================================
+Saved results to 'results/hypothesis_2_final_results.csv'
