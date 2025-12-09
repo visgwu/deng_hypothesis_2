@@ -35,6 +35,9 @@ The analysis revealed that the model primarily relied on **three key features** 
 2.  **`builder.id` (Importance: 0.334):** The identity of the build platform (e.g., `untrusted-builder` vs. `slsa-github-generator`) was the second most critical factor.
 3.  **`recipe.entryPoint` (Importance: 0.282):** The script or command used to initiate the build (e.g., `malicious_script.sh`) was highly predictive.
 
+### Feature Importance Visualization
+![Feature Importance Analysis of SLSA Provenance Fields](results/feature_importance.png)
+
 **Feature Importance Table:**
 
 | Rank | Feature Name | Importance Score |
@@ -51,4 +54,4 @@ The analysis revealed that the model primarily relied on **three key features** 
 ## 5. Conclusion
 Hypothesis 2 is **ACCEPTED**. 
 
-The fine-tuned model (`ft:gpt-4o-mini-2024-07-18:vchirrav::CQm2xpT1`) exceeded the 85% accuracy target by achieving **91.0%**. The analysis confirms that deep inspection of the **Build Environment**, **Builder Identity**, and **Entry Point** provides a robust mechanism for detecting software supply chain attacks that bypass traditional signature verification.
+The fine-tuned model (`ft:gpt-4o-mini...`) exceeded the 85% accuracy target by achieving **91.0%**. The analysis confirms that deep inspection of the **Build Environment**, **Builder Identity**, and **Entry Point** provides a robust mechanism for detecting software supply chain attacks that bypass traditional signature verification.
